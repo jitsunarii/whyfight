@@ -153,7 +153,7 @@ export class StreetFighterGame {
     // ゲームを停止
     setTimeout(() => {
       // タイトル画面に遷移（仮にリロードする形にしています）
-      window.location.reload();
+      window.location.href = "https://axella1.sakura.ne.jp/project/home";
     }, 3000);
   }
 
